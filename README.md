@@ -13,12 +13,12 @@ The dataset used in this project is a CSV file containing the following informat
 
 ***Sample Data***
 
-Country	Age	Gender	Customer Spending<br>
-France	32	Female	150.50<br>
-Germany	45	Male	200.75<br>
-Spain	28	Female	75.25<br>
-Italy	39	Male	180.00<br>
-UK	52	Female	250.30<br>
+Country	 Age  Gender  Customer_Spending<br>
+France	 32	  Female	 150.50<br>
+Germany	 45	  Male	     200.75<br>
+Spain	 28	  Female	 75.25<br>
+Italy	 39	  Male	     180.00<br>
+UK	     52	  Female	 250.30<br>
 
 ***Project Steps***
 
