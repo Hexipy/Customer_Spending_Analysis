@@ -12,12 +12,14 @@ The dataset used in this project is a CSV file containing the following informat
     Customer Spending: The total amount spent by the customer in euros.
 
 ***Sample Data***
+
 Country	Age	Gender	Customer Spending
 France	32	Female	150.50
 Germany	45	Male	200.75
 Spain	28	Female	75.25
 Italy	39	Male	180.00
 UK	52	Female	250.30
+
 ***Project Steps***
 
     Data Preparation
