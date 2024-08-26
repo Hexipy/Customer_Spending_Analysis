@@ -1,52 +1,52 @@
 # Customer_Spending_Analysis
-**Contexte et Objectif**
+**Context and Objective**
 
-Le projet "Analyse des Dépenses Client" vise à explorer et à analyser un ensemble de données relatif aux dépenses des clients dans différents pays. Ce projet a pour but de fournir des insights significatifs sur les habitudes de dépenses des clients, en identifiant des tendances et des modèles dans les données. L'objectif final est de créer un rapport détaillé et des visualisations qui permettent de mieux comprendre les comportements de consommation dans divers contextes géographiques.
-**Données**
+The "Customer Spending Analysis" project aims to explore and analyze a dataset related to customer spending across various countries. The goal is to provide meaningful insights into customer spending habits by identifying trends and patterns in the data. The ultimate objective is to create a comprehensive report and visualizations that offer a better understanding of consumer behavior in different geographical contexts.
+**Data**
 
-Les données utilisées dans ce projet proviennent d'un fichier CSV contenant les informations suivantes :
+The dataset used in this project is a CSV file containing the following information:
 
-    Pays : Le pays où le client réside.
-    Âge : L'âge du client.
-    Genre : Le genre du client (Male/Female).
-    Dépenses des clients : Le montant total des dépenses du client en euros.
+    Country: The country where the customer resides.
+    Age: The age of the customer.
+    Gender: The gender of the customer (Male/Female).
+    Customer Spending: The total amount spent by the customer in euros.
 
-Exemple de Données
-Pays	Âge	Genre	Dépenses des clients
+*Sample Data*
+Country	Age	Gender	Customer Spending
 France	32	Female	150.50
 Germany	45	Male	200.75
 Spain	28	Female	75.25
 Italy	39	Male	180.00
 UK	52	Female	250.30
-Étapes du Projet
+*Project Steps*
 
-    Préparation des Données
-        Chargement des Données : Importation du fichier CSV dans un DataFrame.
-        Exploration Initiale : Affichage d'un résumé technique des données, incluant les types de données des champs et le nombre de valeurs non-nulles.
+    Data Preparation
+        Loading Data: Import the CSV file into a DataFrame.
+        Initial Exploration: Display a technical summary of the data, including data types and the number of non-null values.
 
-    Nettoyage des Données
-        Gestion des Valeurs Manquantes : Identification et traitement des valeurs NaN (Not a Number) dans les colonnes. Suppression des lignes avec des valeurs manquantes critiques.
-        Conversion des Types de Données : Conversion des âges en entiers et des dépenses en flottants, si nécessaire.
-        Suppression des Valeurs Inexactes : Nettoyage des lignes avec des dépenses inférieures à 10 € et suppression des doublons.
+    Data Cleaning
+        Handling Missing Values: Identify and address NaN (Not a Number) values in the columns. Remove rows with critical missing values.
+        Data Type Conversion: Convert ages to integers and spending amounts to floats if necessary.
+        Removing Inaccurate Values: Clean rows with spending less than €10 and remove duplicates.
 
-    Analyse des Données
-        Calcul des Statistiques : Calcul de la médiane et de la moyenne des colonnes "Âge" et "Dépenses des clients".
-        Visualisation des Dépenses : Création d'un graphique à barres pour visualiser les dépenses des clients par pays, avec ajustement des valeurs sur l'axe des y pour améliorer la lisibilité.
+    Data Analysis
+        Calculating Statistics: Compute the median and mean for the "Age" and "Customer Spending" columns.
+        Spending Visualization: Create a bar chart to visualize customer spending by country, adjusting y-axis values for better readability.
 
-    Export des Données Nettoyées
-        Création d'un Fichier CSV Nettoyé : Export des données nettoyées dans un nouveau fichier CSV contenant uniquement les colonnes "Pays", "Âge", "Genre" et "Dépenses des clients".
+    Exporting Cleaned Data
+        Creating a Cleaned CSV File: Export the cleaned data into a new CSV file containing only the columns "Country", "Age", "Gender", and "Customer Spending".
 
-    Documentation et Rapport
-        Documentation : Rédaction d'un rapport expliquant les étapes de nettoyage, les résultats de l'analyse et les visualisations produites.
-        Préparation du Notebook Jupyter : Nettoyage des sorties et sauvegarde du notebook avec toutes les étapes du projet pour soumission.
+    Documentation and Reporting
+        Documentation: Write a report explaining the cleaning steps, analysis results, and visualizations produced.
+        Preparing the Jupyter Notebook: Clean outputs and save the notebook with all project steps for submission.
 
-**Outils et Technologies**
+**Tools and Technologies**
 
-    Python : Langage de programmation utilisé pour la manipulation et l'analyse des données.
-    Pandas : Bibliothèque Python pour la gestion des données.
-    Matplotlib : Bibliothèque Python pour la création de visualisations graphiques.
-    Jupyter Notebook : Environnement de développement interactif pour documenter et exécuter le code.
+    Python: Programming language used for data manipulation and analysis.
+    Pandas: Python library for data management.
+    Matplotlib: Python library for creating graphical visualizations.
+    Jupyter Notebook: Interactive development environment for documenting and executing code.
 
-**Résultats Attendus**
+**Expected Results**
 
-Le projet devrait aboutir à une compréhension approfondie des dépenses des clients par pays, avec des visualisations claires montrant les différences et similitudes dans les comportements de consommation. Les insights fournis permettront de faire des recommandations basées sur les données pour des stratégies de marketing et d'analyse de marché.
+The project should provide a deep understanding of customer spending by country, with clear visualizations highlighting differences and similarities in spending behavior. The insights gained will inform recommendations for marketing strategies and market analysis.
