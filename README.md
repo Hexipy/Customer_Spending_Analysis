@@ -1,6 +1,3 @@
-# Customer_Spending_Analysis
-**Context and Objective**
-
 <p align="center">
   <img src="/Assets/data-analytics.png" alt="Small Scale Data" width="500"/>
 </p>
@@ -8,6 +5,8 @@
   <i>Microdata</i>
 </p>
 
+# Customer_Spending_Analysis
+**Context and Objective**
 
 The "Customer Spending Analysis" project aims to explore and analyze a dataset related to customer spending across various countries. The goal is to provide meaningful insights into customer spending habits by identifying trends and patterns in the data. The ultimate objective is to create a comprehensive report and visualizations that offer a better understanding of consumer behavior in different geographical contexts.
 **Data**
