@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/Assets/data-analytics.png" alt="Small Scale Data" width="500"/>
+  <img src="/Assets/data-analytics.png" alt="Small Scale Data" width="900"/>
 </p>
 <p align="center">
   <i>Microdata</i>
