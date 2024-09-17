@@ -2,7 +2,7 @@
   <img src="/Assets/data-analytics.png" alt="Small Scale Data" width="1200"/>
 </p>
 <p align="center">
-  <h4><b>Microdata</b></h4>
+  <b>Microdata</b>
 </p>
 
 # Customer_Spending_Analysis
